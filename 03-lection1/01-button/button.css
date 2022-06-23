@@ -1,55 +1,30 @@
 /* Стилизация кнопки */
-body {
-    margin: 0;
-}
-
-.buttons-wrapper {
-    display: flex;
-}
 
 .button {
-    display: flex;
-    box-sizing: border-box;
-    width: 189px;
-    height: 48px;
+    display: inline-flex;
     border-radius: 8px;
-    justify-content: center;
-    align-items: center;
-}
-
-.button_cursor_pointer {
     cursor: pointer;
+    color: var(--white);
+    padding: 15px 66px;
+    width: min-content;
 }
 
-.button_cursor_not-allowed {
+.button_primary {
+    background: var(--primary);
+}
+.button_secondary {
+    background: var(--secondary);
+}
+
+.button_disabled {
+    opacity: 0.5;
     cursor: not-allowed;
 }
 
-.button_background-color_blue {
-    background: var(--blue);
-}
-
-.button__title_font-color_white {
-    color: var(--white);
-}
-
-.button__title_opacity_50-percent {
-    opacity: 0.5;
-}
-
-.button_opacity_50-percent {
-    opacity: 0.5;
-}
-
-.button_background-color_purple {
-    background: var(--purple);
-}
-
-.button_border-color_grey {
+.button_alternate {
     border: 1px solid var(--grey-3);
-}
-
-.button__title_font-color_grey {
     color: var(--grey-4);
 }
+
+
 
