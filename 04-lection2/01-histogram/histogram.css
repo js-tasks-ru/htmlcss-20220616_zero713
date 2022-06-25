@@ -1,0 +1,136 @@
+.histogram {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: 1px var(--grey-3) solid;
+    max-width: 354px;
+    border-radius: 8px;
+    padding: 16px 24px 24px 24px;
+    height: 185px;
+}
+.histogram__top-part {
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.histogram__link {
+    margin-top: 3px;
+}
+
+.histogram__margins {
+    margin: 0px;
+}
+.histogram__information {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.histogram__bottom-part {
+    height: 30%;
+}
+.histogram__chart {
+    display: flex;
+    gap: 0.8px;
+    align-items:flex-end;
+    width: auto;
+    height: 100%;
+}
+
+.histogram__column {
+    flex: 1 1 100%;
+}
+
+.histogram__column_column1 {
+    height: 56%;
+}
+
+.histogram__column_column2 {
+    height: 56%;
+}
+
+.histogram__column_column3 {
+    height: 59%;
+}
+.histogram__column_column4 {
+    height: 67%;
+}
+.histogram__column_column5 {
+    height: 70%;
+}
+.histogram__column_column6 {
+    height: 70%;
+}
+.histogram__column_column7 {
+    height: 67%;
+}
+.histogram__column_column8 {
+    height: 76%;
+}
+.histogram__column_column9 {
+    height: 70%;
+}
+.histogram__column_column10 {
+    height: 70%;
+}
+.histogram__column_column11 {
+    height: 71%;
+}
+.histogram__column_column12 {
+    height: 76%;
+}
+.histogram__column_column13 {
+    height: 79%;
+}
+.histogram__column_column14 {
+    height: 82%;
+}
+.histogram__column_column15 {
+    height: 82%;
+}
+.histogram__column_column16 {
+    height: 84%;
+}
+.histogram__column_column17 {
+    height: 87%;
+}
+.histogram__column_column18 {
+    height: 89%;
+}
+.histogram__column_column19 {
+    height: 95%;
+}
+.histogram__column_column20 {
+    height: 95%;
+}
+.histogram__column_column21 {
+    height: 99%;
+}
+.histogram__column_column22 {
+    height: 100%;
+}
+.histogram__column_column23 {
+    height: 100%;
+}
+.histogram__column_column24 {
+    height: 100%;
+}
+.histogram__column_column25 {
+    height: 100%;
+}
+.histogram__column_column26 {
+    height: 95%;
+}
+.histogram__column_column27 {
+    height: 93%;
+}
+.histogram__column_column28 {
+    height: 90%;
+}
+.histogram__column_column29 {
+    height: 89%;
+}
+.histogram__column_column30 {
+    height: 90%;
+}
