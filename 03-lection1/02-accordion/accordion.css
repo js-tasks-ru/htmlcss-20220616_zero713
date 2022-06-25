@@ -14,7 +14,7 @@
 }
 
 .accordion__block[open] {
-    padding: 24px 48px 32px 32px;
+    padding-bottom: 32px;
 }
 
 .accordion__font {
