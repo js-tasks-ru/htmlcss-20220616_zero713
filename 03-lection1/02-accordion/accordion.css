@@ -10,6 +10,11 @@
     box-sizing: border-box;
     max-width: 730px;
     min-width: 200px;
+    padding: 24px 48px 24px 32px;
+}
+
+.accordion__block[open] {
+    padding: 24px 48px 32px 32px;
 }
 
 .accordion__font {
@@ -22,10 +27,9 @@
 .accordion__caption {
     list-style-type: none;
     color: var(--black);
-    margin: 24px 0px 24px 32px;
 }
 
 .accordion__content {
     color: var(--grey-4);
-    margin: 0px 48px 32px 32px;
+    margin: 16px 0px 0px 0px;
 }
