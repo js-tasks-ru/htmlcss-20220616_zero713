@@ -1,0 +1,39 @@
+.skeleton {
+    box-sizing: border-box;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 40px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.skeleton__top-part {
+    display: flex;
+    gap: 16px;
+}
+.skeleton__top-ellipse {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--grey-2);
+}
+
+.skeleton__rows {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.skeleton__row {
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__row_short {
+    max-width: 40%;
+}
+.skeleton__row_long {
+    max-width: 60%;
+}
