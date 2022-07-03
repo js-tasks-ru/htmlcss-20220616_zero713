@@ -19,6 +19,8 @@
     --primary-hover: #2342C0;
     --secondary: var(--purple);
     --secondary-hover: #5028C6;
+    --title: #334D6E;
+    --modal-background: rgba(206, 206, 206, 0.5);
 }
 
 * {

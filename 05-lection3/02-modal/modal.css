@@ -1,7 +1,6 @@
 .button {
     display: inline-flex;
-    position:absolute;
-    z-index: 1;
+    position: absolute;
     box-sizing: border-box;
     border-style: none;
     border-radius: 8px;
@@ -15,7 +14,6 @@
     font-weight: normal;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
-
 .button_primary {
     background: var(--primary);
 }
@@ -24,20 +22,16 @@
 }
 
 #modal {
-    display: block;
-    
+    display: none;
 }
-
 .modal__background {
-    
-    box-shadow: inset 0 0 0 9999px rgba(206, 206, 206, 0.5);
+    box-shadow: inset 0 0 0 9999px var(--modal-background);
     position: relative;
     display: flex;
     height: 100vh;
     width: 100%;
     justify-content: center;
     align-items: center;
-    z-index: 2;
 }
 
 .modal__block {
@@ -50,10 +44,9 @@
     display: flex;
     flex-direction: column;
 }
-
 .modal__title {
     font-family: inherit;
-    color: #334D6E;
+    color: var(--title);
     margin-top: 5px;
     margin-bottom: 14px;
     font-size: 20px;
@@ -68,17 +61,15 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: #495057;
+    color: var(--grey-4);
 }
 .modal__button {
-    background-image: url(../02-modal/image/x.jpg);
+    background-image: url(../images/x.jpg);
     border-style: none;
     width: 16px;
     height: 16px;
     margin-left: 360px;
 }
 
-.modal__button:hover {
-    background: rgb(229, 218, 218)
-}
+
 
