@@ -1,0 +1,78 @@
+.button {
+    display: inline-flex;
+    position: absolute;
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--white);
+    padding: 15px 66px;
+    width: min-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: normal;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button_primary {
+    background: var(--primary);
+}
+.button_primary:hover {
+    background: var(--primary-hover);
+}
+
+#modal {
+    display: none;
+}
+.modal__background {
+    box-shadow: inset 0 0 0 9999px var(--modal-background);
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__block {
+    padding: 15px 40px 33px 40px;
+    box-sizing: border-box;
+    max-width: 428px;
+    border-radius: 8px;
+    background: var(--white);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.modal__title {
+    font-family: inherit;
+    color: var(--title);
+    margin-top: 5px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+.modal__text {
+    margin: 0px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+.modal__button {
+    box-sizing: border-box;
+    background: var(--white);
+    border-style: none;
+    width: 16px;
+    height: 16px;
+    margin-left: 360px;
+    padding: 0px;
+}
+
+
+
+
